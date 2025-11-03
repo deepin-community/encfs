@@ -1,0 +1,12 @@
+Template: encfs/security-information
+Type: error
+_Description: Encfs security information
+ According to a security audit by Taylor Hornby (Defuse Security), the current
+ implementation of Encfs is vulnerable or potentially vulnerable to multiple
+ types of attacks. For example, an attacker with read/write access to encrypted
+ data might lower the decryption complexity for subsequently encrypted data
+ without this being noticed by a legitimate user, or might use timing analysis
+ to deduce information.
+ .
+ Until these issues are resolved, encfs should not be considered a safe home
+ for sensitive data in scenarios where such attacks are possible.

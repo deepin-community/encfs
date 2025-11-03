@@ -1,4 +1,24 @@
 #!/usr/bin/make -f
 
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+include /usr/share/dpkg/architecture.mk
+-include /usr/share/quilt/quilt.make
+
+CFLAGS += -flto
+CXXFLAGS += -flto
+LDFLAGS += -flto -Wl,--as-needed
+
 %:
 	dh $@
+
+override_dh_auto_configure:
+	# keep cmake's default rpath handling with rewritting on installation but target a custom folder
+	dh_auto_configure -- -DUSE_INTERNAL_TINYXML=off -DBUILD_SHARED_LIBS=on -DINSTALL_LIBENCFS=on -DLIB_INSTALL_DIR=lib/encfs
+
+ifneq ($(DOENCFSTESTS),FORCE)
+# needs the fuse kernel module -> ignore
+override_dh_auto_test:
+	true
+endif
+

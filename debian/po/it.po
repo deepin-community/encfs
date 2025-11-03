@@ -1,0 +1,54 @@
+# Italian translation of encfs debconf messages.
+# Copyright (C) 2014, encfs package's copyright holder
+# This file is distributed under the same license as the encfs package.
+# Beatrice Torracca <beatricet@libero.it>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: encfs\n"
+"Report-Msgid-Bugs-To: encfs@packages.debian.org\n"
+"POT-Creation-Date: 2014-10-07 19:56+0200\n"
+"PO-Revision-Date: 2014-10-17 18:28+0200\n"
+"Last-Translator: Beatrice Torracca <beatricet@libero.it>\n"
+"Language-Team: Italian <debian-l10n-italian@lists.debian.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid "Encfs security information"
+msgstr "Informazioni di sicurezza su Encfs"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"According to a security audit by Taylor Hornby (Defuse Security), the "
+"current implementation of Encfs is vulnerable or potentially vulnerable to "
+"multiple types of attacks. For example, an attacker with read/write access "
+"to encrypted data might lower the decryption complexity for subsequently "
+"encrypted data without this being noticed by a legitimate user, or might use "
+"timing analysis to deduce information."
+msgstr ""
+"Secondo una verifica di sicurezza fatta da Taylor Hornby (Defuse Security), "
+"l'attuale implementazione di Encfs è vulnerabile o potenzialmente "
+"vulnerabile a diversi tipi di attacchi. Per esempio, l'autore di un attacco "
+"con accesso in lettura/scrittura ai dati cifrati potrebbe abbassare la "
+"complessità di decifrazione per i dati cifrati da lì in avanti, senza che "
+"questo venga notato da un utente legittimo, oppure potrebbe usare analisi "
+"sulle tempistiche per dedurre informazioni."
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"Until these issues are resolved, encfs should not be considered a safe home "
+"for sensitive data in scenarios where such attacks are possible."
+msgstr ""
+"Fino a che questi problemi non saranno risolti encfs non dovrebbe essere "
+"considerato un luogo sicuro per dati sensibili in scenari dove questo tipo "
+"di attacco è possibile."

@@ -1,0 +1,54 @@
+# Debconf translations for encfs.
+# Copyright (C) 2014 THE encfs'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the encfs package.
+# Adriano Rafael Gomes <adrianorg@arg.eti.br>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: encfs\n"
+"Report-Msgid-Bugs-To: encfs@packages.debian.org\n"
+"POT-Creation-Date: 2014-10-07 19:56+0200\n"
+"PO-Revision-Date: 2014-10-10 17:24-0300\n"
+"Last-Translator: Adriano Rafael Gomes <adrianorg@arg.eti.br>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
+"org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid "Encfs security information"
+msgstr "Informação de segurança do Encfs"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"According to a security audit by Taylor Hornby (Defuse Security), the "
+"current implementation of Encfs is vulnerable or potentially vulnerable to "
+"multiple types of attacks. For example, an attacker with read/write access "
+"to encrypted data might lower the decryption complexity for subsequently "
+"encrypted data without this being noticed by a legitimate user, or might use "
+"timing analysis to deduce information."
+msgstr ""
+"De acordo com uma auditoria de segurança por Taylor Hornby (Defuse "
+"Security), a implementação atual do Encfs é vulnerável ou potencialmente "
+"vulnerável a múltiplos tipos de ataques. Por exemplo, um atacante com acesso "
+"de leitura/escrita a dados criptografados poderia baixar a complexidade da "
+"descriptografia para dados criptografados subsequentemente sem que isso "
+"fosse percebido por um usuário legítimo, ou poderia usar análise de tempo "
+"para deduzir informação."
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"Until these issues are resolved, encfs should not be considered a safe home "
+"for sensitive data in scenarios where such attacks are possible."
+msgstr ""
+"Até que essas questões sejam resolvidas, o encfs não deveria ser considerado "
+"um local seguro para dados sensíveis em cenários onde tais ataques sejam "
+"possíveis."

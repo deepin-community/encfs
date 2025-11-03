@@ -1,0 +1,54 @@
+# Dutch translation of encfs debconf templates.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the encfs package.
+# Frans Spiesschaert <Frans.Spiesschaert@yucom.be>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: encfs\n"
+"Report-Msgid-Bugs-To: encfs@packages.debian.org\n"
+"POT-Creation-Date: 2014-10-07 19:56+0200\n"
+"PO-Revision-Date: 2014-10-11 21:23+0200\n"
+"Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
+"Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid "Encfs security information"
+msgstr "Veiligheidsinformatie over Encfs"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"According to a security audit by Taylor Hornby (Defuse Security), the "
+"current implementation of Encfs is vulnerable or potentially vulnerable to "
+"multiple types of attacks. For example, an attacker with read/write access "
+"to encrypted data might lower the decryption complexity for subsequently "
+"encrypted data without this being noticed by a legitimate user, or might use "
+"timing analysis to deduce information."
+msgstr ""
+"Volgens een veiligheidsdoorlichting door Taylor Hornby (Defuse Security) is "
+"de huidige implementatie van Encfs kwetsbaar of potentieel kwetsbaar voor "
+"verschillende soorten aanvallen. Bijvoorbeeld kan een aanvaller die over de "
+"rechten beschikt om versleutelde gegevens te lezen en op te slaan, de "
+"complexiteit van de versleuteling van gegevens die achteraf versleuteld "
+"worden, verminderen zonder dat de rechtmatige gebruiker daar iets van merkt. "
+"Of hij kan op basis van tijdsanalyse afgeleide informatie bekomen."
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"Until these issues are resolved, encfs should not be considered a safe home "
+"for sensitive data in scenarios where such attacks are possible."
+msgstr ""
+"Zolang deze problemen niet opgelost zijn, zou men encfs niet mogen "
+"beschouwen als een veilige thuishaven voor gevoelige informatie in contexten "
+"waarin dergelijke aanvallen mogelijk zijn."

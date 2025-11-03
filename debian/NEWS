@@ -1,0 +1,19 @@
+encfs (1.7.4-4) unstable; urgency=medium
+
+  * There is a security audit report available on
+    https://defuse.ca/audits/encfs.htm
+    which identifies some security issues in encfs. Many of them affect the
+    retrieval of encrypted data from unsafe storage which could have been
+    manipulated by an attacker and have some impact on data retrieval or on
+    future encryption operation, like adding zero bytes blocks inside of real
+    data, or disabling MACs via configuration file (lowering the encryption
+    complexity for subsequently added data). Some attacks affect the
+    encryption mechanism (potential timing analysis of MACs, stream cipher is
+    used to encrypt the last file block while generating block IV by XORing
+    the block number).
+
+    Some users should reconsider the use of encfs for sensitive data in
+    environments which allow situations like those described on the mentioned
+    website.
+
+ -- Eduard Bloch <blade@debian.org>  Tue, 07 Oct 2014 20:05:57 +0200

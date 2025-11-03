@@ -1,0 +1,79 @@
+# encfs po-debconf translation to Spanish
+# Copyright (C) 2014 Software in the Public Interest
+# This file is distributed under the same license as the encfs package.
+#
+# Changes:
+# - Initial translation
+# Camaleón <noelamac@gmail.com>, 2014
+#
+# - Updates
+#
+#
+# Traductores, si no conocen el formato PO, merece la pena leer la
+# documentación de gettext, especialmente las secciones dedicadas a este
+# formato, por ejemplo ejecutando:
+# info -n '(gettext)PO Files'
+# info -n '(gettext)Header Entry'
+#
+# Equipo de traducción al español, por favor lean antes de traducir
+# los siguientes documentos:
+#
+# - El proyecto de traducción de Debian al español
+# http://www.debian.org/intl/spanish/
+# especialmente las notas y normas de traducción en
+# http://www.debian.org/intl/spanish/notas
+#
+# - La guía de traducción de po's de debconf:
+# /usr/share/doc/po-debconf/README-trans
+# o http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: encfs\n"
+"Report-Msgid-Bugs-To: encfs@packages.debian.org\n"
+"POT-Creation-Date: 2014-10-07 19:56+0200\n"
+"PO-Revision-Date: 2014-12-05 16:17+0100\n"
+"Last-Translator: Camaleón <noelamac@gmail.com>\n"
+"Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid "Encfs security information"
+msgstr "Información de seguridad para EncFS"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"According to a security audit by Taylor Hornby (Defuse Security), the "
+"current implementation of Encfs is vulnerable or potentially vulnerable to "
+"multiple types of attacks. For example, an attacker with read/write access "
+"to encrypted data might lower the decryption complexity for subsequently "
+"encrypted data without this being noticed by a legitimate user, or might use "
+"timing analysis to deduce information."
+msgstr ""
+"Según la auditoría de seguridad de Taylor Hornby (Defuse Security), la "
+"implementación actual de EncFS es vulnerable o potencialmente vulnerable a "
+"varios tipos de ataque. Por ejemplo, un atacante con acceso de "
+"lectura/escritura a los datos cifrados podría reducir la complejidad del "
+"descifrado de los datos cifrados posteriormente sin que el usuario legítimo "
+"se dé cuenta o podría utilizar un análisis temporal para deducir la "
+"información."
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"Until these issues are resolved, encfs should not be considered a safe home "
+"for sensitive data in scenarios where such attacks are possible."
+msgstr ""
+"Hasta que estos problemas no se resuelvan, no se debería considerar a EncFS "
+"como una opción segura para almacenar datos sensibles en situaciones donde "
+"este tipo de ataques sean posibles."

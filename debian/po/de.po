@@ -1,0 +1,52 @@
+# German debconf translation of encfs.
+# Copyright (C) Chris Leick <c.leick@vollbio.de>, 2014.
+# This file is distributed under the same license as the encfs package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: encfs 1.7.4-4\n"
+"Report-Msgid-Bugs-To: encfs@packages.debian.org\n"
+"POT-Creation-Date: 2014-10-07 19:56+0200\n"
+"PO-Revision-Date: 2014-10-10 18:12+0100\n"
+"Last-Translator: Chris Leick <c.leick@vollbio.de>\n"
+"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid "Encfs security information"
+msgstr "Encfs-Sicherheitsinformation"
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"According to a security audit by Taylor Hornby (Defuse Security), the "
+"current implementation of Encfs is vulnerable or potentially vulnerable to "
+"multiple types of attacks. For example, an attacker with read/write access "
+"to encrypted data might lower the decryption complexity for subsequently "
+"encrypted data without this being noticed by a legitimate user, or might use "
+"timing analysis to deduce information."
+msgstr ""
+"Gemäß des Sicherheits-Audits durch Taylor Hornby (Defuse Security) ist die "
+"derzeitige Implementierung von Encfs verwundbar oder potentiell für mehrere "
+"Angriffsarten anfällig. Ein Angreifer mit Schreib-/Lesezugriff auf "
+"verschlüsselte Daten könnte zum Beispiel die Komplexität der Verschlüsselung "
+"für nachfolgend verschlüsselte Daten heruntersetzen, ohne dass ein "
+"rechtmäßiger Benutzer dies bemerkt. Er könnte außerdem Zeitanalysen "
+"verwenden, um daraus Informationen abzuleiten."
+
+#. Type: error
+#. Description
+#: ../encfs.templates:1001
+msgid ""
+"Until these issues are resolved, encfs should not be considered a safe home "
+"for sensitive data in scenarios where such attacks are possible."
+msgstr ""
+"Bis diese Probleme behoben sind, sollte Encfs nicht in Szenarien, in denen "
+"derartige Angriffe möglich sind, als sicherer Ort für sensible Daten angesehen "
+"werden."
